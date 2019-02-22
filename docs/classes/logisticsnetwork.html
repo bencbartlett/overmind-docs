@@ -1,0 +1,1006 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>LogisticsNetwork | Overmind</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Overmind</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../index.html">Globals</a>
+				</li>
+				<li>
+					<a href="logisticsnetwork.html">LogisticsNetwork</a>
+				</li>
+			</ul>
+			<h1>Class LogisticsNetwork</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Logistics Group: efficiently partners resource requests with transporters using a stable matching algorithm to
+							provide general-purpose resource transport. For a better explanation of how this system works, see my blog post:
+						<a href="https://bencbartlett.wordpress.com/2018/03/28/screeps-4-hauling-is-np-hard/">https://bencbartlett.wordpress.com/2018/03/28/screeps-4-hauling-is-np-hard/</a></p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">LogisticsNetwork</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="logisticsnetwork.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#_matching" class="tsd-kind-icon">_matching</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="logisticsnetwork.html#buffers" class="tsd-kind-icon">buffers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#cache" class="tsd-kind-icon">cache</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="logisticsnetwork.html#colony" class="tsd-kind-icon">colony</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="logisticsnetwork.html#memory" class="tsd-kind-icon">memory</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="logisticsnetwork.html#requests" class="tsd-kind-icon">requests</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#targettorequest" class="tsd-kind-icon">target<wbr>ToRequest</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="logisticsnetwork.html#matching" class="tsd-kind-icon">matching</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#bufferchoices" class="tsd-kind-icon">buffer<wbr>Choices</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#computenextavailability" class="tsd-kind-icon">compute<wbr>Next<wbr>Availability</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#computepredictedtransportercarry" class="tsd-kind-icon">compute<wbr>Predicted<wbr>Transporter<wbr>Carry</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#getinputamount" class="tsd-kind-icon">get<wbr>Input<wbr>Amount</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#getoutputamount" class="tsd-kind-icon">get<wbr>Output<wbr>Amount</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#invalidatecache" class="tsd-kind-icon">invalidate<wbr>Cache</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#nextavailability" class="tsd-kind-icon">next<wbr>Availability</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#predictedrequestamount" class="tsd-kind-icon">predicted<wbr>Request<wbr>Amount</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#predictedtransportercarry" class="tsd-kind-icon">predicted<wbr>Transporter<wbr>Carry</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#refresh" class="tsd-kind-icon">refresh</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#requestinput" class="tsd-kind-icon">request<wbr>Input</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#requestoutput" class="tsd-kind-icon">request<wbr>Output</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#requestoutputminerals" class="tsd-kind-icon">request<wbr>Output<wbr>Minerals</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#requestpreferences" class="tsd-kind-icon">request<wbr>Preferences</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#resourcechangerate" class="tsd-kind-icon">resource<wbr>Change<wbr>Rate</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="logisticsnetwork.html#stablematching" class="tsd-kind-icon">stable<wbr>Matching</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#summarize" class="tsd-kind-icon">summarize</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#summarizematching" class="tsd-kind-icon">summarize<wbr>Matching</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="logisticsnetwork.html#transporterpreferences" class="tsd-kind-icon">transporter<wbr>Preferences</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="logisticsnetwork.html#targetingtransporters" class="tsd-kind-icon">targeting<wbr>Transporters</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Object literals</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-object-literal tsd-parent-kind-class tsd-is-static"><a href="logisticsnetwork.html#settings" class="tsd-kind-icon">settings</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Logistics<wbr>Network<span class="tsd-signature-symbol">(</span>colony<span class="tsd-signature-symbol">: </span><a href="colony.html" class="tsd-signature-type">Colony</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="logisticsnetwork.html" class="tsd-signature-type">LogisticsNetwork</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L90">logistics/LogisticsNetwork.ts:90</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>colony: <a href="colony.html" class="tsd-signature-type">Colony</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="logisticsnetwork.html" class="tsd-signature-type">LogisticsNetwork</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_matching" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _matching</h3>
+					<div class="tsd-signature tsd-kind-icon">_matching<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L78">logistics/LogisticsNetwork.ts:78</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="buffers" class="tsd-anchor"></a>
+					<h3>buffers</h3>
+					<div class="tsd-signature tsd-kind-icon">buffers<span class="tsd-signature-symbol">:</span> <a href="../index.html#buffertarget" class="tsd-signature-type">BufferTarget</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L75">logistics/LogisticsNetwork.ts:75</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="cache" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> cache</h3>
+					<div class="tsd-signature tsd-kind-icon">cache<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L80">logistics/LogisticsNetwork.ts:80</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="colony" class="tsd-anchor"></a>
+					<h3>colony</h3>
+					<div class="tsd-signature tsd-kind-icon">colony<span class="tsd-signature-symbol">:</span> <a href="colony.html" class="tsd-signature-type">Colony</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L76">logistics/LogisticsNetwork.ts:76</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="memory" class="tsd-anchor"></a>
+					<h3>memory</h3>
+					<div class="tsd-signature tsd-kind-icon">memory<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">LogisticsNetworkMemory</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L72">logistics/LogisticsNetwork.ts:72</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="requests" class="tsd-anchor"></a>
+					<h3>requests</h3>
+					<div class="tsd-signature tsd-kind-icon">requests<span class="tsd-signature-symbol">:</span> <a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L73">logistics/LogisticsNetwork.ts:73</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="targettorequest" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> target<wbr>ToRequest</h3>
+					<div class="tsd-signature tsd-kind-icon">target<wbr>ToRequest<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L77">logistics/LogisticsNetwork.ts:77</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>targetRef: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="matching" class="tsd-anchor"></a>
+					<h3>matching</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> matching<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L643">logistics/LogisticsNetwork.ts:643</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">object</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-index-signature">
+									<h5><span class="tsd-signature-symbol">[</span>creepName: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="bufferchoices" class="tsd-anchor"></a>
+					<h3>buffer<wbr>Choices</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">buffer<wbr>Choices<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a>, request<span class="tsd-signature-symbol">: </span><a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L435">logistics/LogisticsNetwork.ts:435</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+								<li>
+									<h5>request: <a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="computenextavailability" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> compute<wbr>Next<wbr>Availability</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">compute<wbr>Next<wbr>Availability<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L290">logistics/LogisticsNetwork.ts:290</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="computepredictedtransportercarry" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> compute<wbr>Predicted<wbr>Transporter<wbr>Carry</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">compute<wbr>Predicted<wbr>Transporter<wbr>Carry<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a>, nextAvailability<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">StoreDefinition</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L339">logistics/LogisticsNetwork.ts:339</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> nextAvailability: <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">StoreDefinition</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="getinputamount" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Input<wbr>Amount</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Input<wbr>Amount<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a>, resourceType<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ResourceConstant</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L201">logistics/LogisticsNetwork.ts:201</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a></h5>
+								</li>
+								<li>
+									<h5>resourceType: <span class="tsd-signature-type">ResourceConstant</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="getoutputamount" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Output<wbr>Amount</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Output<wbr>Amount<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a>, resourceType<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ResourceConstant</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"all"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L241">logistics/LogisticsNetwork.ts:241</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a></h5>
+								</li>
+								<li>
+									<h5>resourceType: <span class="tsd-signature-type">ResourceConstant</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"all"</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="invalidatecache" class="tsd-anchor"></a>
+					<h3>invalidate<wbr>Cache</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">invalidate<wbr>Cache<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a>, request<span class="tsd-signature-symbol">: </span><a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L552">logistics/LogisticsNetwork.ts:552</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+								<li>
+									<h5>request: <a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="nextavailability" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> next<wbr>Availability</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">next<wbr>Availability<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L323">logistics/LogisticsNetwork.ts:323</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="predictedrequestamount" class="tsd-anchor"></a>
+					<h3>predicted<wbr>Request<wbr>Amount</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">predicted<wbr>Request<wbr>Amount<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a>, request<span class="tsd-signature-symbol">: </span><a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a>, nextAvailability<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L389">logistics/LogisticsNetwork.ts:389</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+								<li>
+									<h5>request: <a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> nextAvailability: <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="predictedtransportercarry" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> predicted<wbr>Transporter<wbr>Carry</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">predicted<wbr>Transporter<wbr>Carry<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">StoreDefinition</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L381">logistics/LogisticsNetwork.ts:381</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">StoreDefinition</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="refresh" class="tsd-anchor"></a>
+					<h3>refresh</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">refresh<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L112">logistics/LogisticsNetwork.ts:112</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="requestinput" class="tsd-anchor"></a>
+					<h3>request<wbr>Input</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">request<wbr>Input<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a>, opts<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RequestOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L127">logistics/LogisticsNetwork.ts:127</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> opts: <span class="tsd-signature-type">RequestOptions</span><span class="tsd-signature-symbol"> =&nbsp;{} as RequestOptions</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="requestoutput" class="tsd-anchor"></a>
+					<h3>request<wbr>Output</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">request<wbr>Output<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a>, opts<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RequestOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L159">logistics/LogisticsNetwork.ts:159</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> opts: <span class="tsd-signature-type">RequestOptions</span><span class="tsd-signature-symbol"> =&nbsp;{} as RequestOptions</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="requestoutputminerals" class="tsd-anchor"></a>
+					<h3>request<wbr>Output<wbr>Minerals</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">request<wbr>Output<wbr>Minerals<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="../interfaces/storestructure.html" class="tsd-signature-type">StoreStructure</a>, opts<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">RequestOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L190">logistics/LogisticsNetwork.ts:190</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <a href="../interfaces/storestructure.html" class="tsd-signature-type">StoreStructure</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> opts: <span class="tsd-signature-type">RequestOptions</span><span class="tsd-signature-symbol"> =&nbsp;{} as RequestOptions</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="requestpreferences" class="tsd-anchor"></a>
+					<h3>request<wbr>Preferences</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">request<wbr>Preferences<span class="tsd-signature-symbol">(</span>request<span class="tsd-signature-symbol">: </span><a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a>, transporters<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L540">logistics/LogisticsNetwork.ts:540</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>request: <a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a></h5>
+								</li>
+								<li>
+									<h5>transporters: <a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="resourcechangerate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> resource<wbr>Change<wbr>Rate</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">resource<wbr>Change<wbr>Rate<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a>, request<span class="tsd-signature-symbol">: </span><a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L527">logistics/LogisticsNetwork.ts:527</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+								<li>
+									<h5>request: <a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="stablematching" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> stable<wbr>Matching</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">stable<wbr>Matching<span class="tsd-signature-symbol">(</span>transporters<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L651">logistics/LogisticsNetwork.ts:651</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporters: <a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">object</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-index-signature">
+									<h5><span class="tsd-signature-symbol">[</span>creepName: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="summarize" class="tsd-anchor"></a>
+					<h3>summarize</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">summarize<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L584">logistics/LogisticsNetwork.ts:584</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="summarizematching" class="tsd-anchor"></a>
+					<h3>summarize<wbr>Matching</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">summarize<wbr>Matching<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L559">logistics/LogisticsNetwork.ts:559</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="transporterpreferences" class="tsd-anchor"></a>
+					<h3>transporter<wbr>Preferences</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">transporter<wbr>Preferences<span class="tsd-signature-symbol">(</span>transporter<span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L546">logistics/LogisticsNetwork.ts:546</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>transporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/logisticsrequest.html" class="tsd-signature-type">LogisticsRequest</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="targetingtransporters" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> targeting<wbr>Transporters</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">targeting<wbr>Transporters<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a>, excludedTransporter<span class="tsd-signature-symbol">?: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L330">logistics/LogisticsNetwork.ts:330</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <a href="../index.html#logisticstarget" class="tsd-signature-type">LogisticsTarget</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> excludedTransporter: <a href="zerg.html" class="tsd-signature-type">Zerg</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="zerg.html" class="tsd-signature-type">Zerg</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Object literals</h2>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-class tsd-is-static">
+					<a name="settings" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> settings</h3>
+					<div class="tsd-signature tsd-kind-icon">settings<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L85">logistics/LogisticsNetwork.ts:85</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="settings.carrythreshold" class="tsd-anchor"></a>
+						<h3>carry<wbr>Threshold</h3>
+						<div class="tsd-signature tsd-kind-icon">carry<wbr>Threshold<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;800</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L88">logistics/LogisticsNetwork.ts:88</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="settings.droppedenergythreshold" class="tsd-anchor"></a>
+						<h3>dropped<wbr>Energy<wbr>Threshold</h3>
+						<div class="tsd-signature tsd-kind-icon">dropped<wbr>Energy<wbr>Threshold<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;200</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L89">logistics/LogisticsNetwork.ts:89</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="settings.flagdropamount" class="tsd-anchor"></a>
+						<h3>flag<wbr>Drop<wbr>Amount</h3>
+						<div class="tsd-signature tsd-kind-icon">flag<wbr>Drop<wbr>Amount<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;1000</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L86">logistics/LogisticsNetwork.ts:86</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="settings.rangetopathheuristic" class="tsd-anchor"></a>
+						<h3>range<wbr>ToPath<wbr>Heuristic</h3>
+						<div class="tsd-signature tsd-kind-icon">range<wbr>ToPath<wbr>Heuristic<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;1.1</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/logistics/LogisticsNetwork.ts#L87">logistics/LogisticsNetwork.ts:87</a></li>
+							</ul>
+						</aside>
+					</section>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../index.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="logisticsnetwork.html" class="tsd-kind-icon">Logistics<wbr>Network</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#_matching" class="tsd-kind-icon">_matching</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#buffers" class="tsd-kind-icon">buffers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#cache" class="tsd-kind-icon">cache</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#colony" class="tsd-kind-icon">colony</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#memory" class="tsd-kind-icon">memory</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#requests" class="tsd-kind-icon">requests</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#targettorequest" class="tsd-kind-icon">target<wbr>ToRequest</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#matching" class="tsd-kind-icon">matching</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#bufferchoices" class="tsd-kind-icon">buffer<wbr>Choices</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#computenextavailability" class="tsd-kind-icon">compute<wbr>Next<wbr>Availability</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#computepredictedtransportercarry" class="tsd-kind-icon">compute<wbr>Predicted<wbr>Transporter<wbr>Carry</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#getinputamount" class="tsd-kind-icon">get<wbr>Input<wbr>Amount</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#getoutputamount" class="tsd-kind-icon">get<wbr>Output<wbr>Amount</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#invalidatecache" class="tsd-kind-icon">invalidate<wbr>Cache</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#nextavailability" class="tsd-kind-icon">next<wbr>Availability</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#predictedrequestamount" class="tsd-kind-icon">predicted<wbr>Request<wbr>Amount</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#predictedtransportercarry" class="tsd-kind-icon">predicted<wbr>Transporter<wbr>Carry</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#refresh" class="tsd-kind-icon">refresh</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#requestinput" class="tsd-kind-icon">request<wbr>Input</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#requestoutput" class="tsd-kind-icon">request<wbr>Output</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#requestoutputminerals" class="tsd-kind-icon">request<wbr>Output<wbr>Minerals</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#requestpreferences" class="tsd-kind-icon">request<wbr>Preferences</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#resourcechangerate" class="tsd-kind-icon">resource<wbr>Change<wbr>Rate</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="logisticsnetwork.html#stablematching" class="tsd-kind-icon">stable<wbr>Matching</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#summarize" class="tsd-kind-icon">summarize</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#summarizematching" class="tsd-kind-icon">summarize<wbr>Matching</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="logisticsnetwork.html#transporterpreferences" class="tsd-kind-icon">transporter<wbr>Preferences</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="logisticsnetwork.html#targetingtransporters" class="tsd-kind-icon">targeting<wbr>Transporters</a>
+							</li>
+							<li class=" tsd-kind-object-literal tsd-parent-kind-class tsd-is-static">
+								<a href="logisticsnetwork.html#settings" class="tsd-kind-icon">settings</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

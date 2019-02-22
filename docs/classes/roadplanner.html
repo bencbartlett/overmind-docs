@@ -1,0 +1,816 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>RoadPlanner | Overmind</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Overmind</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../index.html">Globals</a>
+				</li>
+				<li>
+					<a href="roadplanner.html">RoadPlanner</a>
+				</li>
+			</ul>
+			<h1>Class RoadPlanner</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">RoadPlanner</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="roadplanner.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="roadplanner.html#colony" class="tsd-kind-icon">colony</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="roadplanner.html#costmatrices" class="tsd-kind-icon">cost<wbr>Matrices</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="roadplanner.html#memory" class="tsd-kind-icon">memory</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="roadplanner.html#roadpositions" class="tsd-kind-icon">road<wbr>Positions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="roadplanner.html#roomplanner" class="tsd-kind-icon">room<wbr>Planner</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="roadplanner.html#roadcoverage" class="tsd-kind-icon">road<wbr>Coverage</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#buildmissing" class="tsd-kind-icon">build<wbr>Missing</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#buildroadnetwork" class="tsd-kind-icon">build<wbr>Road<wbr>Network</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#computeroadcoverage" class="tsd-kind-icon">compute<wbr>Road<wbr>Coverage</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="roadplanner.html#finalize" class="tsd-kind-icon">finalize</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#formatroadpositions" class="tsd-kind-icon">format<wbr>Road<wbr>Positions</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#generateroadpath" class="tsd-kind-icon">generate<wbr>Road<wbr>Path</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#generateroadplanningcostmatrix" class="tsd-kind-icon">generate<wbr>Road<wbr>Planning<wbr>Cost<wbr>Matrix</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="roadplanner.html#init" class="tsd-kind-icon">init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#planroad" class="tsd-kind-icon">plan<wbr>Road</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#recalculateroadnetwork" class="tsd-kind-icon">recalculate<wbr>Road<wbr>Network</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="roadplanner.html#recomputeroadcoverages" class="tsd-kind-icon">recompute<wbr>Road<wbr>Coverages</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="roadplanner.html#refresh" class="tsd-kind-icon">refresh</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="roadplanner.html#roadshouldbehere" class="tsd-kind-icon">road<wbr>Should<wbr>BeHere</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="roadplanner.html#run" class="tsd-kind-icon">run</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="roadplanner.html#visuals" class="tsd-kind-icon">visuals</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="roadplanner.html#shouldbuild" class="tsd-kind-icon">should<wbr>Build</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Object literals</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-object-literal tsd-parent-kind-class tsd-is-static"><a href="roadplanner.html#settings" class="tsd-kind-icon">settings</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Road<wbr>Planner<span class="tsd-signature-symbol">(</span>roomPlanner<span class="tsd-signature-symbol">: </span><a href="roomplanner.html" class="tsd-signature-type">RoomPlanner</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="roadplanner.html" class="tsd-signature-type">RoadPlanner</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L48">roomPlanner/RoadPlanner.ts:48</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>roomPlanner: <a href="roomplanner.html" class="tsd-signature-type">RoomPlanner</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="roadplanner.html" class="tsd-signature-type">RoadPlanner</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="colony" class="tsd-anchor"></a>
+					<h3>colony</h3>
+					<div class="tsd-signature tsd-kind-icon">colony<span class="tsd-signature-symbol">:</span> <a href="colony.html" class="tsd-signature-type">Colony</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L38">roomPlanner/RoadPlanner.ts:38</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="costmatrices" class="tsd-anchor"></a>
+					<h3>cost<wbr>Matrices</h3>
+					<div class="tsd-signature tsd-kind-icon">cost<wbr>Matrices<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L41">roomPlanner/RoadPlanner.ts:41</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>roomName: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">CostMatrix</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="memory" class="tsd-anchor"></a>
+					<h3>memory</h3>
+					<div class="tsd-signature tsd-kind-icon">memory<span class="tsd-signature-symbol">:</span> <a href="../interfaces/roadplannermemory.html" class="tsd-signature-type">RoadPlannerMemory</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L39">roomPlanner/RoadPlanner.ts:39</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="roadpositions" class="tsd-anchor"></a>
+					<h3>road<wbr>Positions</h3>
+					<div class="tsd-signature tsd-kind-icon">road<wbr>Positions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L40">roomPlanner/RoadPlanner.ts:40</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="roomplanner" class="tsd-anchor"></a>
+					<h3>room<wbr>Planner</h3>
+					<div class="tsd-signature tsd-kind-icon">room<wbr>Planner<span class="tsd-signature-symbol">:</span> <a href="roomplanner.html" class="tsd-signature-type">RoomPlanner</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L37">roomPlanner/RoadPlanner.ts:37</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="roadcoverage" class="tsd-anchor"></a>
+					<h3>road<wbr>Coverage</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> roadCoverage<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L64">roomPlanner/RoadPlanner.ts:64</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="buildmissing" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> build<wbr>Missing</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">build<wbr>Missing<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L312">roomPlanner/RoadPlanner.ts:312</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="buildroadnetwork" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> build<wbr>Road<wbr>Network</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">build<wbr>Road<wbr>Network<span class="tsd-signature-symbol">(</span>storagePos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span>, obstacles<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L148">roomPlanner/RoadPlanner.ts:148</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>storagePos: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+								<li>
+									<h5>obstacles: <span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="computeroadcoverage" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> compute<wbr>Road<wbr>Coverage</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">compute<wbr>Road<wbr>Coverage<span class="tsd-signature-symbol">(</span>storagePos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span>, destination<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L114">roomPlanner/RoadPlanner.ts:114</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>storagePos: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+								<li>
+									<h5>destination: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">object</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="finalize" class="tsd-anchor"></a>
+					<h3>finalize</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">finalize<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L269">roomPlanner/RoadPlanner.ts:269</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="formatroadpositions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> format<wbr>Road<wbr>Positions</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">format<wbr>Road<wbr>Positions<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L256">roomPlanner/RoadPlanner.ts:256</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="generateroadpath" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> generate<wbr>Road<wbr>Path</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">generate<wbr>Road<wbr>Path<span class="tsd-signature-symbol">(</span>origin<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span>, destination<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span>, obstacles<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L219">roomPlanner/RoadPlanner.ts:219</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>origin: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+								<li>
+									<h5>destination: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+								<li>
+									<h5>obstacles: <span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="generateroadplanningcostmatrix" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> generate<wbr>Road<wbr>Planning<wbr>Cost<wbr>Matrix</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">generate<wbr>Road<wbr>Planning<wbr>Cost<wbr>Matrix<span class="tsd-signature-symbol">(</span>roomName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, obstacles<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CostMatrix</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L168">roomPlanner/RoadPlanner.ts:168</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>roomName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>obstacles: <span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">CostMatrix</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="init" class="tsd-anchor"></a>
+					<h3>init</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">init<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L295">roomPlanner/RoadPlanner.ts:295</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="planroad" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> plan<wbr>Road</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">plan<wbr>Road<span class="tsd-signature-symbol">(</span>pos1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span>, pos2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span>, obstacles<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L160">roomPlanner/RoadPlanner.ts:160</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pos1: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+								<li>
+									<h5>pos2: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+								<li>
+									<h5>obstacles: <span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="recalculateroadnetwork" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> recalculate<wbr>Road<wbr>Network</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">recalculate<wbr>Road<wbr>Network<span class="tsd-signature-symbol">(</span>storagePos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span>, obstacles<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L142">roomPlanner/RoadPlanner.ts:142</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>storagePos: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+								<li>
+									<h5>obstacles: <span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="recomputeroadcoverages" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> recompute<wbr>Road<wbr>Coverages</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">recompute<wbr>Road<wbr>Coverages<span class="tsd-signature-symbol">(</span>storagePos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L68">roomPlanner/RoadPlanner.ts:68</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>storagePos: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="refresh" class="tsd-anchor"></a>
+					<h3>refresh</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">refresh<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L58">roomPlanner/RoadPlanner.ts:58</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="roadshouldbehere" class="tsd-anchor"></a>
+					<h3>road<wbr>Should<wbr>BeHere</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">road<wbr>Should<wbr>BeHere<span class="tsd-signature-symbol">(</span>pos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L338">roomPlanner/RoadPlanner.ts:338</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pos: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="run" class="tsd-anchor"></a>
+					<h3>run</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">run<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L346">roomPlanner/RoadPlanner.ts:346</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="visuals" class="tsd-anchor"></a>
+					<h3>visuals</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">visuals<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L370">roomPlanner/RoadPlanner.ts:370</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="shouldbuild" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> should<wbr>Build</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">should<wbr>Build<span class="tsd-signature-symbol">(</span>structureType<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BuildableStructureConstant</span>, pos<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RoomPosition</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L299">roomPlanner/RoadPlanner.ts:299</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>structureType: <span class="tsd-signature-type">BuildableStructureConstant</span></h5>
+								</li>
+								<li>
+									<h5>pos: <span class="tsd-signature-type">RoomPosition</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Object literals</h2>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-class tsd-is-static">
+					<a name="settings" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> settings</h3>
+					<div class="tsd-signature tsd-kind-icon">settings<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L43">roomPlanner/RoadPlanner.ts:43</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="settings.buildroadsatrcl" class="tsd-anchor"></a>
+						<h3>build<wbr>Roads<wbr>AtRCL</h3>
+						<div class="tsd-signature tsd-kind-icon">build<wbr>Roads<wbr>AtRCL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;4</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L47">roomPlanner/RoadPlanner.ts:47</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="settings.encourageroadmerging" class="tsd-anchor"></a>
+						<h3>encourage<wbr>Road<wbr>Merging</h3>
+						<div class="tsd-signature tsd-kind-icon">encourage<wbr>Road<wbr>Merging<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L44">roomPlanner/RoadPlanner.ts:44</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="settings.recalculateroadnetworkinterval" class="tsd-anchor"></a>
+						<h3>recalculate<wbr>Road<wbr>Network<wbr>Interval</h3>
+						<div class="tsd-signature tsd-kind-icon">recalculate<wbr>Road<wbr>Network<wbr>Interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;onPublicServer() ? 3000 : 1000</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L45">roomPlanner/RoadPlanner.ts:45</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="settings.recomputecoverageinterval" class="tsd-anchor"></a>
+						<h3>recompute<wbr>Coverage<wbr>Interval</h3>
+						<div class="tsd-signature tsd-kind-icon">recompute<wbr>Coverage<wbr>Interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;onPublicServer() ? 1000 : 500</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/bencbartlett/Overmind/blob/2eae97b/src/roomPlanner/RoadPlanner.ts#L46">roomPlanner/RoadPlanner.ts:46</a></li>
+							</ul>
+						</aside>
+					</section>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../index.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="roadplanner.html" class="tsd-kind-icon">Road<wbr>Planner</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="roadplanner.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="roadplanner.html#colony" class="tsd-kind-icon">colony</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="roadplanner.html#costmatrices" class="tsd-kind-icon">cost<wbr>Matrices</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="roadplanner.html#memory" class="tsd-kind-icon">memory</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="roadplanner.html#roadpositions" class="tsd-kind-icon">road<wbr>Positions</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="roadplanner.html#roomplanner" class="tsd-kind-icon">room<wbr>Planner</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="roadplanner.html#roadcoverage" class="tsd-kind-icon">road<wbr>Coverage</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#buildmissing" class="tsd-kind-icon">build<wbr>Missing</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#buildroadnetwork" class="tsd-kind-icon">build<wbr>Road<wbr>Network</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#computeroadcoverage" class="tsd-kind-icon">compute<wbr>Road<wbr>Coverage</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="roadplanner.html#finalize" class="tsd-kind-icon">finalize</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#formatroadpositions" class="tsd-kind-icon">format<wbr>Road<wbr>Positions</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#generateroadpath" class="tsd-kind-icon">generate<wbr>Road<wbr>Path</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#generateroadplanningcostmatrix" class="tsd-kind-icon">generate<wbr>Road<wbr>Planning<wbr>Cost<wbr>Matrix</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="roadplanner.html#init" class="tsd-kind-icon">init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#planroad" class="tsd-kind-icon">plan<wbr>Road</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#recalculateroadnetwork" class="tsd-kind-icon">recalculate<wbr>Road<wbr>Network</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="roadplanner.html#recomputeroadcoverages" class="tsd-kind-icon">recompute<wbr>Road<wbr>Coverages</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="roadplanner.html#refresh" class="tsd-kind-icon">refresh</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="roadplanner.html#roadshouldbehere" class="tsd-kind-icon">road<wbr>Should<wbr>BeHere</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="roadplanner.html#run" class="tsd-kind-icon">run</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="roadplanner.html#visuals" class="tsd-kind-icon">visuals</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="roadplanner.html#shouldbuild" class="tsd-kind-icon">should<wbr>Build</a>
+							</li>
+							<li class=" tsd-kind-object-literal tsd-parent-kind-class tsd-is-static">
+								<a href="roadplanner.html#settings" class="tsd-kind-icon">settings</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
